@@ -82,7 +82,7 @@ impage_banner =Image.open('pk.png')
 st.image(impage_banner,width='stretch')
 
 # centerizing title
-st.markdown("<h1 style =text-align:'center;'>vehicle prediction app</>", unsafe_allow_html=True)
+st.markdown("<h1 style ='text-align:center;'>vehicle prediction app</>", unsafe_allow_html=True)
 
 # split layout into two columns
 left_col, right_col =st.columns(2)
